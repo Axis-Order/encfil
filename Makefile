@@ -1,6 +1,6 @@
 all:*.c
-	gcc -Wall -o encfil *.c -O2
+	gcc -Wall -o encfil *.c 
 install:encfil
-	cp encfil /usr/bin
+	cp ./encfil /usr/bin
 uninstall:
-	rm /usr/bin
+	rm /usr/bin/encfil
